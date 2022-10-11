@@ -33,11 +33,11 @@
 
 > Actions and thunks are dispatched to mutate application state in store.
 
-<img src="docs/image/flux-flow.png" alt="flux flow" />
+<img src=".docs/image/flux-flow.png" alt="flux flow" />
 
 > Components consume application state from store.
 
-<img src="docs/image/flux-component.png" alt="flux component" />
+<img src=".docs/image/flux-component.png" alt="flux component" />
 
 ## 📗 Bootstrap
 
