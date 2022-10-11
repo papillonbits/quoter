@@ -32,8 +32,7 @@ export function App() {
 function renderApp() {
   checkAccessibilityIssues(React, ReactDOM, 1000)
 
-  const root = ReactDOM.createRoot(document.getElementById('app'))
-  root.render(<App />)
+  ReactDOM.createRoot(document.getElementById('app')).render(<App />)
 
   if (module.hot) {
     module.hot.accept()
