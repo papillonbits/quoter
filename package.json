@@ -38,8 +38,7 @@
     "start-storybook": "NODE_ENV=develop start-storybook -p 7007 -c .storybook",
     "deploy-core": "gh-pages -d packages/core/build",
     "deploy": "npm-run-all deploy-core",
-    "release": "lerna publish",
-    "prepare": "husky install"
+    "release": "lerna publish"
   },
   "dependencies": {
     "@papillonbits/components": "^0.46.0",
