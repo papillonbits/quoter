@@ -1,5 +1,5 @@
 /*!
- * @project        @papillonbits/quoter-core-microsite
+ * @project        quoter
  * @name           runtime.39a4f21e139fd2d757e7.bundle.js
  * @author         MTS
  * @copyright      Copyright (c) 2022 MTS

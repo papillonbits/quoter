@@ -5,7 +5,7 @@
 */
 
 /*!
- * @project        @papillonbits/quoter-core-microsite
+ * @project        quoter
  * @name           main.9a788f8bc4fc63494046.bundle.js
  * @author         MTS
  * @copyright      Copyright (c) 2022 MTS
