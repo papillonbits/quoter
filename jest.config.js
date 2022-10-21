@@ -1,12 +1,16 @@
 // https://docs.codecov.com/docs/codecov-uploader
 /* eslint-disable prefer-destructuring */
-const getJestSetup = require('@papillonbits/library/jest').getJestSetup
+const getJestSetup = require('@papillonbits/setup/jest').getJestSetup
 
 const testPathIgnorePatterns = process.env.NODE_ENV === 'test' ? ['packages/core/webpack.test.babel.js'] : ['packages/core']
 const coverageDirectory = './.coverage/'
 const collectCoverage = process.env.NODE_ENV === 'test'
 const collectCoverageFrom = [
-  '!**/coverage/**',
+  '!**/.coverage/**',
+  '!**/.husky/**',
+  '!**/.mock/**',
+  '!**/.storybook/**',
+  '!**/.storybook-static/**',
   '!**/node_modules/**',
   'packages/**/*.{js,jsx}',
   '!packages/**/index.js',
@@ -16,17 +20,13 @@ const collectCoverageFrom = [
   '!packages/**/build/**',
   '!packages/**/node_modules/**',
   '!packages/**/webpack*',
-  '!packages/core/src/library/**',
-  '!packages/core/src/state/**',
-  '!packages/core/src/store/reducer/**',
-  '!packages/core/src/store/thunk/**',
 ]
 const coverageThreshold = {
   global: {
-    statements: 97,
-    branches: 69,
-    functions: 93,
-    lines: 97,
+    statements: 86,
+    branches: 60,
+    functions: 77,
+    lines: 85,
   },
 }
 
