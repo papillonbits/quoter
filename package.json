@@ -79,7 +79,6 @@
     "@storybook/addon-docs": "^9.1.7",
     "@storybook/addon-jest": "^9.1.7",
     "@storybook/addon-links": "^9.1.7",
-    "@storybook/addon-styling": "^2.0.0",
     "@storybook/addon-styling-webpack": "^2.0.0",
     "@storybook/addon-themes": "^9.1.7",
     "@storybook/react-webpack5": "^9.1.7",
