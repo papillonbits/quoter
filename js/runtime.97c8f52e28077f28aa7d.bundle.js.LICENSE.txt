@@ -1,0 +1,6 @@
+/*!
+ * @project        quoter
+ * @name           runtime.97c8f52e28077f28aa7d.bundle.js
+ * @author         MTS
+ * @copyright      Copyright (c) 2025 MTS
+ */
