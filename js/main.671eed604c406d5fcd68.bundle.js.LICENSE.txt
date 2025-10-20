@@ -6,7 +6,7 @@
 
 /*!
  * @project        quoter
- * @name           main.72f98b4592c0a01a5fcb.bundle.js
+ * @name           main.671eed604c406d5fcd68.bundle.js
  * @author         MTS
  * @copyright      Copyright (c) 2025 MTS
  */
@@ -62,7 +62,7 @@
  */
 
 /**
- * react-router v7.9.1
+ * react-router v7.9.4
  *
  * Copyright (c) Remix Software Inc.
  *
