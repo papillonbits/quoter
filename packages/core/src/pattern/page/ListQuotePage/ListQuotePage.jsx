@@ -1,11 +1,9 @@
 import { ListQuoteTemplate } from '../../template/ListQuoteTemplate'
-import { defaultProps, propTypes } from './ListQuotePage.prop'
+import { propTypes } from './ListQuotePage.prop'
 
 export function ListQuotePage() {
   return <ListQuoteTemplate />
 }
-
-ListQuotePage.defaultProps = defaultProps
 
 ListQuotePage.propTypes = propTypes
 
