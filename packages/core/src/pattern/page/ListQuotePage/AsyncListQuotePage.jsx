@@ -1,5 +1,5 @@
 import { lazy, Suspense } from 'react'
-import { defaultProps, propTypes } from './ListQuotePage.prop'
+import { propTypes } from './ListQuotePage.prop'
 
 const LazyListQuotePage = lazy(() => import('./ListQuotePage'))
 
@@ -10,7 +10,5 @@ export function AsyncListQuotePage() {
     </Suspense>
   )
 }
-
-AsyncListQuotePage.defaultProps = defaultProps
 
 AsyncListQuotePage.propTypes = propTypes
