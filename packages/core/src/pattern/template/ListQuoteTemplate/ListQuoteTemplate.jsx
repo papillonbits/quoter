@@ -1,6 +1,6 @@
 import { primer } from '@papillonbits/components'
 import { Navigator } from '../../molecule/Navigator'
-import { defaultProps, propTypes } from './ListQuoteTemplate.prop'
+import { propTypes } from './ListQuoteTemplate.prop'
 import { useListQuoteState } from './ListQuoteTemplate.hook'
 import styles from './ListQuoteTemplate.scss'
 
@@ -118,7 +118,5 @@ export function ListQuoteTemplate() {
     </div>
   )
 }
-
-ListQuoteTemplate.defaultProps = defaultProps
 
 ListQuoteTemplate.propTypes = propTypes
