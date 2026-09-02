@@ -1,23 +1,20 @@
 /* eslint-disable import/no-dynamic-require, global-require */
 const mockRequireListQuotePage = () => {
-  const listQuotePagePath = '../../pattern/page/ListQuotePage'
-  jest.mock(listQuotePagePath, () => 'ListQuotePage')
-  return require(listQuotePagePath)
+  jest.mock('../../pattern/page/ListQuotePage', () => 'ListQuotePage')
+  return require('../../pattern/page/ListQuotePage')
 }
 
 const mockRequireNotFoundPage = () => {
-  const notFoundPagePath = '../../pattern/page/NotFoundPage'
-  jest.mock(notFoundPagePath, () => 'NotFoundPage')
-  return require(notFoundPagePath)
+  jest.mock('../../pattern/page/NotFoundPage', () => 'NotFoundPage')
+  return require('../../pattern/page/NotFoundPage')
 }
 
 const mockRequirePath = () => {
-  const pathPath = '../path'
-  jest.mock(pathPath, () => ({
+  jest.mock('../path', () => ({
     appRootPath: 'fantastic-app-root-path',
     listQuotePagePath: 'fantastic-list-quote-page-path',
   }))
-  return require(pathPath)
+  return require('../path')
 }
 
 describe('index', () => {
